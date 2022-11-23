@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    password: Hery**6752
+    url: jdbc:postgresql://localhost:5432/api-usuarios
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        jdbc:
+          lob:        
+springdoc:
+  api-doc:
+    path: /path-docs
+  swagger-ui:
+    path/swagger-ui:
+      html: ''
